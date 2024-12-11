@@ -5,7 +5,9 @@ export default function Home() {
         <nav>
           <a href="/">홈</a>
           <a href="/about">소개</a>
-          <a href="/contact">연락처</a>
+          <a href="/contact" className="">
+            연락처
+          </a>
         </nav>
       </header>
 
